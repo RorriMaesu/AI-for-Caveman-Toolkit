@@ -1,0 +1,4 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+    <p>The cave was <emphasis level="strong">cold</emphasis>.</p>
+    <p>Grug looked at the rock. <break time="1s"/> He whispered, <prosody volume="soft" rate="slow">"Are you alive?"</prosody></p>
+</speak>

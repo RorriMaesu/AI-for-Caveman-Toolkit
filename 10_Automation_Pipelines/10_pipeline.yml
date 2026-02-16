@@ -1,0 +1,10 @@
+pipeline_name: "Cure Finder v1"
+inputs:
+  source_folder: "herb_scans/"
+steps:
+  - name: analyze_image
+    model: "moondream-v2"
+    prompt: "Is this plant medicinal? Yes or No."
+  - name: filter_results
+    condition: "medicinal == Yes"
+    action: "save_to_file: found_cures.txt"

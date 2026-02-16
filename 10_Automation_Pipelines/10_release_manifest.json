@@ -1,0 +1,17 @@
+{
+  "release_name": "GrugLoop Video Series - Batch 01",
+  "release_date": "2026-02-15",
+  "asset_count": 2,
+  "assets": [
+    {
+      "image": "release/orb_in_cave_101.png",
+      "music": "release/orb_in_cave_101.wav",
+      "metadata": "release/orb_in_cave_101.json"
+    },
+    {
+      "image": "release/fire_dance_102.png",
+      "music": "release/fire_dance_102.wav",
+      "metadata": "release/fire_dance_102.json"
+    }
+  ]
+}

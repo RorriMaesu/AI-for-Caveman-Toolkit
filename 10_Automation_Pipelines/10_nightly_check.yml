@@ -1,0 +1,18 @@
+name: Nightly Smoke Test
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  smoke_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install Tools
+        run: pip install -r requirements.txt
+      - name: Run The Logic Test
+        run: python 08_Orchestration/08_calculate_winner.py
