@@ -1,4 +1,4 @@
-# 02_vram_estimator.py
+# 03_vram_estimator.py
 # Grug say: usage > capacity = crash.
 # This script guesses if a model fits in your VRAM.
 

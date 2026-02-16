@@ -1,4 +1,4 @@
-# 03_image_audit.py
+# 04_image_audit.py
 # Grug say: Never lose the recipe for your mammoth.
 import os
 from PIL import Image 

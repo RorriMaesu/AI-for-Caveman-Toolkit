@@ -1,4 +1,4 @@
-# 09_check_voice.py
+# 10_check_voice.py
 # Needs ffmpeg installed.
 import sys, os
 try:
@@ -7,7 +7,7 @@ except ImportError:
     print("Missing pydub. Run: pip install pydub")
     sys.exit(1)
 
-AUDIO_FILE = 'ch09_vo_sample.mp3'
+AUDIO_FILE = 'ch10_vo_sample.mp3'
 
 def check_voice():
     if not os.path.exists(AUDIO_FILE):

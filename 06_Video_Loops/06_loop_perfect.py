@@ -1,4 +1,4 @@
-# 05_loop_perfect.py
+# 06_loop_perfect.py
 # Grug say: Circle must be perfect. End is Start.
 import os
 import numpy as np

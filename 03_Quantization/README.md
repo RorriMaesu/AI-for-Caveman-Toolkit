@@ -1,5 +1,5 @@
 
-# Chapter 2: Smash, Make Fit (Quantization)
+# Chapter 3: Smash, Make Fit (Quantization)
 
 ## The Magic Hammer (Cloud Conversion)
 On **Page 42** of the book, Grug mentions a "Cloud Off-Ramp" to quantize models if your local hardware doesn't have enough VRAM.

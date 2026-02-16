@@ -9,13 +9,15 @@ Welcome, Hunter. This is the Cave Wall where we keep the tools.
 
 ## File Index
 - **Chapter 1:** `01_Setup_and_Verify/` (Checking your tools)
-- **Chapter 3:** `03_Image_Generation/` (Checking your art)
-- **Chapter 5:** `05_Video_Loops/` (Checking your loops)
-- **Chapter 6:** `06_Audio_Rhythms/` (Checking the beat)
-- **Chapter 8:** `08_Orchestration/` (Judging the AI Gods)
-- **Chapter 9:** `09_Voice_Cloning/` (Installing MOSS and checking voice)
-- **Chapter 10:** `10_Automation_Pipelines/` (Batch scripts)
-- **Chapter 11:** `11_Publishing/` (Building the book)
+- **Chapter 2:** `02_Spirit_Tongue/` (Vibe Coding Sandbox)
+- **Chapter 3:** `03_Quantization/` (Fitting Giants in Small Caves)
+- **Chapter 4:** `04_Image_Generation/` (Checking your art)
+- **Chapter 6:** `06_Video_Loops/` (Checking your loops)
+- **Chapter 7:** `07_Audio_Rhythms/` (Checking the beat)
+- **Chapter 9:** `09_Orchestration/` (Judging the AI Gods)
+- **Chapter 10:** `10_Voice_Cloning/` (Installing MOSS and checking voice)
+- **Chapter 11:** `11_Automation_Pipelines/` (Batch scripts)
+- **Chapter 12:** `12_Publishing/` (Building the book)
 
 ## Requirements
 Most scripts need Python 3.10+.

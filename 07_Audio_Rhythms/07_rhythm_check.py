@@ -1,4 +1,4 @@
-# 06_rhythm_check.py
+# 07_rhythm_check.py
 # Grug Warning: This script needs 'librosa'. It is heavy.
 import sys
 try:
@@ -8,7 +8,7 @@ except ImportError:
     print("!!! MISSING TOOLS !!! Run: pip install librosa numpy")
     sys.exit(1)
 
-AUDIO_FILE = 'ch06_tribe_loop.wav'
+AUDIO_FILE = 'ch07_tribe_loop.wav'
 
 def check_rhythm():
     print(f"--- Listening to {AUDIO_FILE} ---")
