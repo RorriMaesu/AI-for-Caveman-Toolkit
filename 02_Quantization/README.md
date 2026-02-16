@@ -6,7 +6,7 @@ On **Page 42**, Grug mentions a "Cloud Off-Ramp" to quantize models if your comp
 
 Since we cannot put a Cloud server inside this repo, use this link to open the "Magic Hammer" in Google Colab:
 
-**[🔗 Open Grug's Quantization Notebook](https://colab.research.google.com/drive/1-Your-Colab-Link-Here)**
+**[🔗 Open Grug's Quantization Notebook](https://colab.research.google.com/drive/1jjQqGTJHMnuC8-WRdS4YuJmn9vIxMuYy?usp=sharing)**
 *(Note: In a real release, you would replace this link with your actual Colab notebook URL)*
 
 ## The Forge (ComfyUI)
