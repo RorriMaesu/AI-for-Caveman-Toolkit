@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "name": "llama3.1:8b",
+      "component": "lyrics",
+      "version": "local",
+      "license": "varies by source",
+      "usage_terms": "verify with model provider",
+      "commercial_use_allowed": true
+    },
+    {
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "component": "embedding",
+      "version": "3.0.1",
+      "license": "Apache-2.0",
+      "usage_terms": "include attribution where required",
+      "commercial_use_allowed": true
+    },
+    {
+      "name": "ace_step_local",
+      "component": "audio",
+      "version": "local",
+      "license": "check upstream",
+      "usage_terms": "manual validation required",
+      "commercial_use_allowed": false
+    },
+    {
+      "name": "ltx2_local_comfyui",
+      "component": "video",
+      "version": "local",
+      "license": "check upstream",
+      "usage_terms": "manual validation required",
+      "commercial_use_allowed": false
+    }
+  ],
+  "auto_publish_guard": {
+    "enabled": true,
+    "rule": "block autopublish when any selected model has commercial_use_allowed=false"
+  }
+}

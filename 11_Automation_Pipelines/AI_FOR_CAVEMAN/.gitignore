@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+.pytest_cache/
+
+# Runtime outputs
+_temp/*
+!_temp/.gitkeep
+_output/*
+!_output/.gitkeep
+
+# Database runtime state
+_database/*.db
+_database/vector_index/

@@ -1,0 +1,75 @@
+project_name: AI_FOR_CAVEMAN
+
+environment:
+  python_min_version: "3.10"
+  mode_default: mock
+
+runtime:
+  mock_mode: true
+  preflight_on_deploy: true
+
+ollama:
+  model_name: "qwen3:14b"
+  model_dir: "M:\\AiStudio\\Ollama_Models"
+  max_tokens: 1024
+  use_gpu: true
+
+vram:
+  lyrics_worker_mb: 12000
+  audio_worker_mb: 9000
+  video_worker_mb: 9000
+  safety_margin_mb: 1500
+
+paths:
+  database: _database/mission_log.db
+  temp: _temp
+  output: _output
+  input: _input
+  workflow_api_json: _input/workflow_api.json
+  cover_image: _assets/book_cover.png
+
+gpu:
+  required_for_audio_mb: 1500
+  required_for_video_mb: 2500
+  safety_margin_mb: 1500
+  wait_timeout_seconds: 600
+  baseline_restore_timeout_seconds: 60
+  poll_interval_seconds: 3
+
+timeouts:
+  lyrics_seconds: 300
+  audio_seconds: 900
+  video_seconds: 1800
+  assemble_seconds: 1800
+
+retries:
+  max_attempts: 3
+  backoff_seconds: 5
+
+uniqueness:
+  threshold: 0.92
+
+commands:
+  ffmpeg:
+    windows: ffmpeg.exe
+    linux: ffmpeg
+  fpcalc:
+    windows: fpcalc.exe
+    linux: fpcalc
+  comfyui:
+    windows: "python ComfyUI/main.py --disable-auto-launch --listen 127.0.0.1 --port 8188"
+    linux: "python3 ComfyUI/main.py --disable-auto-launch --listen 127.0.0.1 --port 8188"
+
+models:
+  lyrics_model: llama3.1:8b
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  audio_model: ace_step_local
+  video_model: ltx2_local_comfyui
+
+publishing:
+  auto_publish_enabled: false
+  require_human_approval: true
+
+alerts:
+  slack_webhook_url: ""
+  discord_webhook_url: ""

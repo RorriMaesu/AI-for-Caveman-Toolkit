@@ -1,0 +1,34 @@
+{
+  "model_requested": "qwen3:14b",
+  "model_selected": "qwen3:14b",
+  "model_found": true,
+  "status": "OK",
+  "peak_memory_mb": 11820,
+  "baseline_free_mb": 15120,
+  "baseline_total_mb": 16384,
+  "safety_margin_mb": 1500,
+  "timeline": [
+    {
+      "available": true,
+      "total_mb": 16384,
+      "free_mb": 15120,
+      "used_mb": 1264,
+      "timestamp": 1763330000.10
+    },
+    {
+      "available": true,
+      "total_mb": 16384,
+      "free_mb": 4520,
+      "used_mb": 11864,
+      "timestamp": 1763330001.15
+    }
+  ],
+  "baseline_restored": true,
+  "pid_snapshot": {
+    "before": [12340],
+    "after": [12340]
+  },
+  "ollama_model_dir": "M:\\AiStudio\\Ollama_Models",
+  "ollama_stdout": "hello",
+  "ollama_stderr": ""
+}
